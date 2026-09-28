@@ -34,10 +34,16 @@
     <loc>https://Sorendavidsen.github.io/R-programming/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/aio.html</loc>
+  </url>
+  <url>
     <loc>https://Sorendavidsen.github.io/R-programming/citation.html</loc>
   </url>
   <url>
     <loc>https://Sorendavidsen.github.io/R-programming/functions.html</loc>
+  </url>
+  <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/images.html</loc>
   </url>
   <url>
     <loc>https://Sorendavidsen.github.io/R-programming/index.html</loc>
@@ -76,16 +82,28 @@
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/citation.html</loc>
   </url>
   <url>
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/functions.html</loc>
   </url>
   <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/loops.html</loc>
@@ -97,7 +115,13 @@
     <loc>https://Sorendavidsen.github.io/R-programming/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://Sorendavidsen.github.io/R-programming/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://Sorendavidsen.github.io/R-programming/key-points.html</loc>
   </url>
   <url>
     <loc>https://Sorendavidsen.github.io/R-programming/loops.html</loc>
