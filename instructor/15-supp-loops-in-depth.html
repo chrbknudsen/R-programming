@@ -118,7 +118,7 @@
     <a id="search-button" class="btn btn-primary" href="../instructor/aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress library">
-    <div class="progress-bar library" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">91%</div>
+    <div class="progress-bar library" role="progressbar" style="width: 44%" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">44%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -208,7 +208,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="functions.html">2. functions</a>
+        <a href="13-supp-data-structures.html">2. Data Types and Structures</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -217,7 +217,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="loops.html">3. loops</a>
+        <a href="12-supp-factors.html">3. Understanding Factors</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -226,17 +226,31 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="02-func-R.html">4. Creating Functions</a>
+        <a href="03-loops-R.html">4. Analyzing Multiple Data Sets</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush6">
+<div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading6">
-        <a href="03-loops-R.html">5. Analyzing Multiple Data Sets</a>
+    <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
+        <span class="visually-hidden">Current Chapter</span>
+        <span class="current-chapter">
+        5. Loops in R
+        </span>
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#vectorized-operations">Vectorized Operations</a></li>
+<li><a href="#vector-recycling">Vector Recycling</a></li>
+<li><a href="#for-or-apply"><code>for</code> or <code>apply</code>?</a></li>
+<li><a href="#loops-in-r-are-slow">Loops in R Are Slow</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -253,7 +267,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="10-supp-addressing-data.html">7. Addressing Data</a>
+        <a href="02-func-R.html">7. Creating Functions</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -262,7 +276,7 @@
 <div class="accordion accordion-flush" id="accordionFlush9">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading9">
-        <a href="12-supp-factors.html">8. Understanding Factors</a>
+        <a href="10-supp-addressing-data.html">8. Addressing Data</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -271,7 +285,7 @@
 <div class="accordion accordion-flush" id="accordionFlush10">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading10">
-        <a href="13-supp-data-structures.html">9. Data Types and Structures</a>
+        <a href="14-supp-call-stack.html">9. The Call Stack</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -280,31 +294,8 @@
 <div class="accordion accordion-flush" id="accordionFlush11">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading11">
-        <a href="14-supp-call-stack.html">10. The Call Stack</a>
+        <a href="eksempel-fra-chatty.html">10. Temperaturer: list-columns, mapping og løkker</a>
     </div><!--/div.accordion-header-->
-
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlushcurrent">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-headingcurrent">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
-        <span class="visually-hidden">Current Chapter</span>
-        <span class="current-chapter">
-        11. Loops in R
-        </span>
-      </button>
-    </div><!--/div.accordion-header-->
-
-    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushcurrent">
-      <div class="accordion-body">
-        <ul><li><a href="#vectorized-operations">Vectorized Operations</a></li>
-<li><a href="#vector-recycling">Vector Recycling</a></li>
-<li><a href="#for-or-apply"><code>for</code> or <code>apply</code>?</a></li>
-<li><a href="#loops-in-r-are-slow">Loops in R Are Slow</a></li>
-        </ul></div><!--/div.accordion-body-->
-    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -351,17 +342,17 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter Top"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/14-supp-call-stack.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/index.html" rel="next">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="../instructor/03-loops-R.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="../instructor/04-cond.html" rel="next">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/14-supp-call-stack.html" rel="prev">
+        <a class="chapter-link" href="../instructor/03-loops-R.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: The Call Stack...
+          Previous: Analyzing Multiple Data Sets...
         </a>
-        <a class="chapter-link float-end" href="../instructor/index.html" rel="next">
-          Home
+        <a class="chapter-link float-end" href="../instructor/04-cond.html" rel="next">
+          Next: Making Choices...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -624,7 +615,7 @@ file.</p>
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="output" tabindex="0"><code>   user  system elapsed
-  0.020   0.000   0.019 </code></pre>
+  0.023   0.001   0.024 </code></pre>
 </div>
 <p>Note how we add a new column to <code>out</code> at each iteration?
 This is a cardinal sin of writing a <code>for</code> loop in R.</p>
@@ -652,7 +643,7 @@ with.</p>
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="output" tabindex="0"><code>   user  system elapsed
-  0.019   0.000   0.019 </code></pre>
+  0.023   0.000   0.023 </code></pre>
 </div>
 <p>In this simple example there is little difference in the compute time
 of <code>analyze2</code> and <code>analyze3</code>. This is because we
@@ -684,17 +675,17 @@ any links that you are not going to use.
  -->
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/14-supp-call-stack.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="../instructor/03-loops-R.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link float-end" href="../instructor/04-cond.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/14-supp-call-stack.html" rel="prev">
+        <a class="chapter-link" href="../instructor/03-loops-R.html" rel="prev">
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
-          Previous: The Call Stack...
+          Previous: Analyzing Multiple Data Sets...
         </a>
-        <a class="chapter-link float-end" href="../instructor/index.html" rel="next">
-          Home
+        <a class="chapter-link float-end" href="../instructor/04-cond.html" rel="next">
+          Next: Making Choices...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
