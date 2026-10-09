@@ -23,6 +23,8 @@ Pakker: `tibble`, `purrr` og `dplyr`.
 ## Opret datasættet
 
 ```{r}
+library(tidyverse)
+
 data <- tibble::tibble(
   id = 1:20,
   temperatur = c(
