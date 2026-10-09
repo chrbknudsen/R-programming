@@ -44,7 +44,7 @@ analyze <- function(filename) {
 analyze("data/inflammation-01.csv")
 ```
 
-<img src="fig/03-loops-R-rendered-inflammation-01-1.svg" alt="Scatterplot of average daily inflammation over 40 days, increasing in a mostly straight line until day 20, and then decreasing in a mostly straight line to visualize inflammation levels in a single dataset." style="display: block; margin: auto;" /><img src="fig/03-loops-R-rendered-inflammation-01-2.svg" alt="A scatterplot of maximum daily inflammation over 40 days, increasing in a straight line until day 20, and then decreasing in a straight line to visualize inflammation levels in a single dataset." style="display: block; margin: auto;" /><img src="fig/03-loops-R-rendered-inflammation-01-3.svg" alt="A scatterplot of minimum daily inflammation over 40 days, increasing in a step-wise pattern until day 20, and then decreasing in a step-wise pattern to visualize inflammation levels in a single dataset." style="display: block; margin: auto;" />
+<img src="fig/03-loops-R-rendered-inflammation-01-1.svg" alt="Obligatorisk alt tekst" style="display: block; margin: auto;" /><img src="fig/03-loops-R-rendered-inflammation-01-2.svg" alt="Obligatorisk alt tekst" style="display: block; margin: auto;" /><img src="fig/03-loops-R-rendered-inflammation-01-3.svg" alt="Obligatorisk alt tekst" style="display: block; margin: auto;" />
 
 We can use it to analyze other data sets one by one:
 
