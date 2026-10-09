@@ -66,7 +66,7 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
-- 13-supp-data-structures.Rmd
+- data-types.Rmd
 - 12-supp-factors.Rmd
 - 03-loops-R.Rmd
 - 15-supp-loops-in-depth.Rmd
